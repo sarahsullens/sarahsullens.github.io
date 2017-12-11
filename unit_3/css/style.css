@@ -4,7 +4,7 @@ body {
 
 h1, ul, p {color: rgb(64, 64, 64);
 }
-.hero	{
+.hero		{
 	position: relative;
 	text-align: center;
 	color: rgb(0, 0, 0);
@@ -15,4 +15,28 @@ h1, ul, p {color: rgb(64, 64, 64);
 	left: 50%; 
 	transform: translate(-50%, -50%);
 }
+.topnav		{
+	background-color: rgb(194, 214, 214);
+	overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(102, 153, 153);
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
 
