@@ -5,14 +5,7 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-aside {
-	background:white;
-	height:50px;
-	margin:1em 0;
-}
-header {
-	padding: 20px;
-}
+
 body {
 	background-color: rgb(194, 214, 214);
 	color: rgb(64, 64, 64);
@@ -21,23 +14,51 @@ body {
 	line-height: 1.5em;
 	margin: 2em;
 }
+
+aside {
+	background-color: #FFC675;
+	height:50px;
+	margin:1em 0;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 40px;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+
 section {
 	padding:4em 0;
+	background-color: #FFE2B8;
 }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Open Sans', sans-serif;
 }
 
 p {
 	font-family:'Lora', serif;
-	font-size: 16px;
+	font-size: 1em;
+	width: 30em;
 	line-height: 1.5em;
 	margin: 2em 0;
+}
+
+article {
+	background-color: #E89C6C;
+}
+
+footer {
+	background-color: #FF957E;
 }
 
 #slogan	{
 	font-style: italic;
 }
+
 .hero {
 	background:url(../images/heroplaceholder.jpg);
 	background-size:cover;
@@ -66,4 +87,10 @@ p {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
 }
