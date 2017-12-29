@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #BFD8D2;
+	color: rgb(64, 64, 64);
+	font-size: 16px;
+	font-family:'Lora', serif;
+	line-height: 1.5em;
+	margin: 2em;
+}
+
+aside {
+	height:50px;
+	margin:1em 0;
+}
+
+header {
+	background-color: #F8EEE7;
+	border: 1px black solid;
+	padding: 40px;
+}
+
+nav {
+	background-color: #BFD8D2;
+}
+
+nav a {
+	text-decoration: none;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+section {
+	padding:4em 0;
+	background-color: #eff5f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Open Sans', sans-serif;
+}
+
+p {
+	font-family:'Lora', serif;
+	font-size: 1em;
+	width: 30em;
+	line-height: 1.5em;
+	margin: 2em 0;
+}
+
+article {
+	background-color: #ffffff;
+}
+
+footer {
+	background-color: #F8EEE7;
+}
+
+#slogan	{
+	font-style: italic;
+}
+
+.hero {
+	background:url(../images/heroplaceholder.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 50vh;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-instagram {
+	background: #125688;
+  	color: white; 
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#two_column {
+    background-color: #F8EEE7;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 62%;
+}
+
+#right {
+    background-color: #eff5f4;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
