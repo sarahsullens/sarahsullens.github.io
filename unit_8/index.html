@@ -2,7 +2,6 @@
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<head>
-		<link rel="stylesheet" type="text/css" href="CSS/reset.css">
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Organization Blog</title>
@@ -10,29 +9,19 @@
 
 	<body>
 		<div id="wrapper">
-			<header>
-				<p class="logo">logo goes here</p>
-				<a href="#" class="fa fa-instagram"></a>
-				<a href="#" class="fa fa-facebook"></a>
-				<a href="#" class="fa fa-twitter"></a>
+			<header class="hero">
+				<img class="logo" src="images/Logo.png" title="logo" alt="logo">
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
 			</header>
 
 			<nav>
-				<a class="active" href="#home">Home</a>
-				<a href="#">About</a>
 				<a href="#">Organizing Tips</a>
 				<a href="#">Product Reviews</a>
 				<a href="#">Organize It!</a>
+				<a href="#">About</a>
 			</nav>
-			
-
-			<section class="hero">
-				<div class="centered">
-					<h1>Organization Optimization</h1>
-					<p id="slogan">Tips and Tools for an Organized Life</p>
-					<a href="#" class="cta">Get Organized!</a>
-				</div>
-			</section>
 
 		<section id="two_column" class="clearfix">
 			<section id="left" class="about">
@@ -44,21 +33,24 @@
 					<li>Life hacks and life optimization tips </li>
 				</ul>
 				<p>Can’t find what you’re looking for? Use the <span>Organize It</span> tool to get custom tips and suggestions.</p>
-				<p>Subscribe to our weekly newsletter to get the latest tips and product recommendations sent right to your inbox:</p> 
-				<form>
-					Email: <input type="Email" name="email"><br>
-					<input type="submit" value="sign up">
-				</form>
 			</section>
-			
 			<aside id="right" class="ads">
 				<p>ADS</p>
 			</aside>
 		</section>
+
+			<section id="subscribe">
+				Subscribe to our weekly newsletter to get the latest tips and product recommendations sent right to your inbox:
+					<form>
+						Email: <input type="Email" name="email">
+						<input type="submit" value="sign up">
+					</form>
+			</section>
+
 			<section id="recent">
-				<h2>Recent Posts</h2>
+				<h3>Recent Posts</h3>
 				<article>
-					<h3>Tips for Organizing a Small Closet</h3>
+					<h2>Tips for Organizing a Small Closet</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -66,11 +58,12 @@
 					<a href="#">Read More</a>
 				</article>
 				<div>
-					<h3>Categories</h3>
-					<p>Browse other topics</p>
-					<a href="#">Time Management</a><br>
-					<a href="#">Home Organization</a><br>
-					<a href="#">Life Optimization</a>
+					<h3>Browse Other Topics...</h3>
+					<p>
+						<a href="#">Time Management</a><br>
+						<a href="#">Home Organization</a><br>
+						<a href="#">Life Optimization</a>
+					</p>
 				</div>
 			</section>
 
@@ -79,24 +72,30 @@
 				<article>
 					<h3>Review of XYZ Product 1</h3>
 					<img src="images/wrappingcart.jpg" title="cart" alt="wrappingpapercart">
-					<p>Product review info goes here</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 					<a href="#">Read More</a>
 				</article>
 				<article>
 					<h3>Review of XYZ Product 2</h3>
 					<img src="images/roundbasket.jpeg" title="roundbasket" alt="roundbasket">
-					<p>Product review info goes here</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 					<a href="#">Read More</a>
 				</article>
 				<article>
 					<h3>Review of XYZ Product 3</h3>
 					<img src="images/baskets.jpeg" title="baskets" alt="baskets">
-					<p>Product review info goes here</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 					<a href="#">Read More</a>
 				</article>
 			</section>
 
-			<section id="organize_it">
+			<section id="organizeit">
 				<h2>Organize It!</h2>
 				<p>Every mess is different! Send us your organizing dilemma and we'll tell you the best way to organize it.</p>
 				<form>
@@ -104,7 +103,7 @@
 					Email: <input type="Email"><br>
 					Description of your organizing dilemma: <br>
 					<textarea name="description" rows="5" cols="60"></textarea><br>
-					Photos of your organizing dilemma: <br><input type="file"><br>
+					Photos of the items and/or area you'd like to organize: <br><input type="file"><br>
 					<input type="Submit">
 				</form>
 			</section>
