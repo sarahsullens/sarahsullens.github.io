@@ -20,6 +20,7 @@ header {
 	padding: 2%;
 }
 
+
 nav {
 	background-color: #BFD8D2;
 }
@@ -85,26 +86,27 @@ footer {
 }
 
 .fa {
-  padding: 1em;
-  font-size: 3em;
-  width: 4em;
-  text-align: center;
-  text-decoration: none;
-  margin: 1em 1em;
+	padding: 1em;
+	font-size: 3em;
+	width: 4em;
+	text-align: center;
+	text-decoration: none;
+	margin: 1em 1em;
 }
 
 .fa-instagram {
 	background: #125688;
   	color: white; 
 }
+
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+  	background: #3B5998;
+  	color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+ 	background: #55ACEE;
+ 	color: white;
 }
 
 #wrapper {
@@ -127,12 +129,7 @@ footer {
 }
 
 #right {
-    background-color: #eff5f4;
-    border: 1% black solid;
-    padding: 3%;
-    margin: 5%;
-    float: left;
-    width: 10%;
+    float: right;
 }
 
 #subscribe {
