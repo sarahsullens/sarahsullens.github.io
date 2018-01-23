@@ -94,6 +94,13 @@ footer {
 	padding: 2em;
 }
 
+.hero {
+	background:url(../images/heroplaceholder.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 50vh;
+}
+
 .logo {
 	width: 100%
 }
@@ -180,15 +187,17 @@ footer {
     height: 0;
 }
 
-@media only screen and (min-width: 460px) {
+@media only screen and (max-width: 1024px) {
+
 	.hero {
-		background:url(../images/heroplaceholder.jpg);
-		background-size:cover;
-		background-repeat:no-repeat;
-		height: 50vh;
+		background: none;
 	}
 
+	#header {
+		margin: auto;
+	}
 }
+
 
 @media only screen and (max-width: 680px) {
 
@@ -196,11 +205,40 @@ footer {
 		text-align: center;
 	}
 
+	p {
+		text-align: center;
+	}
+
 	nav a {
 		display: block;
 		text-align: center;
-		margin: 0;
+		margin: 1em;
 	}
+
+	input[type=email1] {
+		width: 100%;
+	}
+
+	input[type=email], input[type=text] {
+		width: 100%;
+		display: block;
+	}
+
+	.articleimg {
+		width: 100%;
+		margin: auto;
+	}
+
+	#left {
+	    float: none;
+	    width: auto;
+	}
+
+	#right {
+    	float: none;
+    	text-align: center;
+	}
+
 }
 
 
