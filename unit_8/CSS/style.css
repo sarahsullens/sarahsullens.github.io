@@ -48,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	font-family:'Lora', serif;
 	font-size: 1em;
-	width: 30em;
 	line-height: 1.5em;
 	margin: 2em 0;
 }
@@ -62,9 +61,20 @@ ul {
     list-style-position: inside;
 }
 
+input[type=email1] {
+	width: 25%;
+}
+
+input[type=email], input[type=text] {
+	width: 25%;
+	display: block;
+}
+
 input[type=button], input[type=submit], input[type=reset] {
     background-color: green;
     border: none;
+    border-radius: 1em;
+    font-size: 1em;
     color: white;
     padding: 1em;
     text-decoration: none;
@@ -82,13 +92,6 @@ article {
 footer {
 	background-color: #fff2e6;
 	padding: 2em;
-}
-
-.hero {
-	background:url(../images/heroplaceholder.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
-	height: 50vh;
 }
 
 .logo {
@@ -119,6 +122,13 @@ footer {
  	color: white;
 }
 
+.italic{ 
+  font-style: italic; 
+}
+
+.articleimg {
+	padding: 1.5em;
+}
 
 #wrapper {
 	width: 100%;
@@ -128,7 +138,6 @@ footer {
 
 #header {
 	width: 20em;
-	margin: 3em 5em 4em 2em;
 	text-align: center;
 }
 
@@ -151,6 +160,7 @@ footer {
 
 #subscribe {
 	background-color: #8A9ABA;
+	font-size: 1.25em;
 	color: #ffffff;
 	text-align: center;
 }
@@ -169,3 +179,30 @@ footer {
     clear: both;
     height: 0;
 }
+
+@media only screen and (min-width: 460px) {
+	.hero {
+		background:url(../images/heroplaceholder.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		height: 50vh;
+	}
+
+}
+
+@media only screen and (max-width: 680px) {
+
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+	}
+
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+}
+
+
+
+

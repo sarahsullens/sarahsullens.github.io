@@ -20,8 +20,8 @@
 
 			<nav>
 				<a href="#">Organizing Tips</a>
-				<a href="#">Product Reviews</a>
-				<a href="#">Organize It!</a>
+				<a href="#products">Product Reviews</a>
+				<a href="#organize">Organize It!</a>
 				<a href="#">About</a>
 			</nav>
 
@@ -34,7 +34,7 @@
 						<li>The best products, tested by us </li>
 						<li>Life hacks and life optimization tips </li>
 					</ul>
-					<p>Can’t find what you’re looking for? Use the <span>Organize It</span> tool to get custom tips and suggestions.</p>
+					<p>Can’t find what you’re looking for? Use the <span class="italic"><a href="#organize">Organize It</a></span> tool to get custom tips and suggestions.</p>
 				</section>
 				<aside id="right" class="ads">
 					<img class="ad" src="images/ad.png" title="ad" alt="ad">
@@ -44,8 +44,8 @@
 			<section id="subscribe">
 				<p>Subscribe to our weekly newsletter to get the latest tips and product recommendations sent right to your inbox:</p>
 					<form>
-						Email: <input type="Email" name="email">
-						<input type="submit" value="sign up">
+						Email: <input type="Email1" name="email">
+						<input type="submit" value="Sign up">
 					</form>
 			</section>
 
@@ -60,18 +60,20 @@
 					consequat. </p>
 					<a href="#">Read More</a>
 				</article>
-				<div>
+				<div id="Topics">
 					<h3>Browse Other Topics...</h3>
 					<p>
-						<a href="#">Time Management</a><br>
-						<a href="#">Home Organization</a><br>
-						<a href="#">Life Optimization</a>
+						<ul>
+							<li><a href="#">Time Management</a><br></li>
+							<li><a href="#">Home Organization</a><br></li>
+							<li><a href="#">Life Optimization</a></li>
+						</ul>
 					</p>
 				</div>
 			</section>
 
 			<section id="reviews">
-				<h2>Product Reviews</h2>
+				<h2 id="products">Product Reviews</h2>
 				<article>
 					<h3>Review of XYZ Product 1</h3>
 					<img class="articleimg" src="images/wrappingcart.jpg" title="cart" alt="wrappingpapercart">
@@ -99,13 +101,13 @@
 			</section>
 
 			<section id="organizeit">
-				<h2>Organize It!</h2>
+				<h2 id="organize">Organize It!</h2>
 				<p>Every mess is different! Send us your organizing dilemma and we'll tell you the best way to organize it.</p>
 				<form>
 					Name: <input type="text"><br>
 					Email: <input type="Email"><br>
 					Description of your organizing dilemma: <br>
-					<textarea name="description" rows="5" cols="60"></textarea><br>
+					<textarea name="description" rows="5em" cols="60em"></textarea><br>
 					Photos of the items and/or area you'd like to organize: <br><input type="file"><br>
 					<input type="Submit">
 				</form>
