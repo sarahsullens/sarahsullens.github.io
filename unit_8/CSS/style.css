@@ -78,10 +78,6 @@ article {
 	margin: 1em;
 }
 
-img {
-	margin: 2%;
-	float: left;
-}
 
 footer {
 	background-color: #fff2e6;
@@ -93,6 +89,10 @@ footer {
 	background-size:cover;
 	background-repeat:no-repeat;
 	height: 50vh;
+}
+
+.logo {
+	width: 100%
 }
 
 .fa {
@@ -119,10 +119,17 @@ footer {
  	color: white;
 }
 
+
 #wrapper {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#header {
+	width: 20em;
+	margin: 3em 5em 4em 2em;
+	text-align: center;
 }
 
 #two_column {
