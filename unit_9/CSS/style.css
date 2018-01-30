@@ -59,33 +59,68 @@ a {
 
 ul {
     list-style-position: inside;
+    text-align: center;
+    display: inline-block;
+    text-align:left;
 }
 
-input[type=email], input[type=text] {
-	width: 40%;
+label {
+	padding-right: .5em;
+}
+
+input[type="email"], input[type="text"] {
+	width: 50%;
+	border: none;
+	border-radius: .5em;	
 	display: block;
 	padding: 1em;
 	margin: 1.5em 0 0 0;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type="button"], input[type="submit"], input[type="reset"] {
     background-color: green;
     border: none;
-    border-radius: 1em;
+    border-radius: .5em;
     font-size: 1em;
     color: white;
-    padding: 1em;
+    padding: .6em;
     text-decoration: none;
-    margin: 1em;
+    margin: 1em 0 1em 0;
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+#subscribe input {
+	display: inline-block;
+}
+
+#recent {
+	width: 100%;
+}
+
+#Topics {
+	width: 50%;
+	text-align: center;
+	padding: 1em;
+}
+
+input[type="submit"]:hover {
     background-color: #45a049;
     }
 
+
+textarea {
+	width: 50%;
+	border: none;
+	display: block;
+	padding: 1em;
+	border-radius: .5em;
+	height: 4em;
+	max-width: 50em;
+}
+
 article {
-	background-color: #dfe3ec;
+	width: 50%;
+	background-color: #ffffff;
 	padding: 2em;
 	margin: 1em;
 }
@@ -109,6 +144,7 @@ footer {
 
 .fa {
 	padding: 1em;
+	border-radius: .5em;
 	font-size: 3em;
 	width: 4em;
 	text-align: center;
@@ -137,6 +173,7 @@ footer {
 
 .articleimg {
 	padding: 1.5em;
+	float: left;
 }
 
 #wrapper {
@@ -216,11 +253,7 @@ footer {
 		margin: 1em;
 	}
 
-	input[type=email1] {
-		width: 100%;
-	}
-
-	input[type=email], input[type=text] {
+	input[type="email"], input[type="text"] {
 		width: 100%;
 		display: block;
 	}
