@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<title>Organization Blog</title>
@@ -25,7 +25,7 @@
 				<a href="#">About</a>
 			</nav>
 
-			<section id="two_column" class="clearfix">
+			<div id="two_column" class="clearfix">
 				<section id="left" class="about">
 					<h2>Welcome to Organization Optimization</h2>
 					<p>Your online destination for all things organization and life optimization. Our tips and product reviews help you de-clutter without wasting precious time. On this site you’ll find:</p>
@@ -39,14 +39,14 @@
 				<aside id="right" class="ads">
 					<img class="ad" src="images/ad.png" title="ad" alt="ad">
 				</aside>
-			</section>
+			</div>
 
 			<section id="subscribe">
 				<p>Subscribe to our weekly newsletter to get the latest tips and product recommendations sent right to your inbox:</p>
-					<form>
-						<label for="Email">Email:</label><input type="Email" name="email">
-						<input type="submit" value="Sign up">
-					</form>
+				<form>
+					<label>Email:</label><input type="Email" name="email">
+					<input type="submit" value="Sign up">
+				</form>
 			</section>
 
 			<section id="recent">
@@ -62,13 +62,11 @@
 				</article>
 				<div id="Topics">
 					<h3>Browse Other Topics...</h3>
-					<p>
-						<ul>
-							<li><a href="#">Time Management</a><br></li>
-							<li><a href="#">Home Organization</a><br></li>
-							<li><a href="#">Life Optimization</a></li>
-						</ul>
-					</p>
+					<ul>
+						<li><a href="#">Time Management</a><br></li>
+						<li><a href="#">Home Organization</a><br></li>
+						<li><a href="#">Life Optimization</a></li>
+					</ul>
 				</div>
 			</section>
 
@@ -104,12 +102,12 @@
 				<h2 id="organize">Organize It!</h2>
 				<p>Every mess is different! Send us your organizing dilemma and we'll tell you the best way to organize it.</p>
 				<form>
-					<label for="Name">Name:</label><input type="text"><br>
-					<label for="Email">Email:</label> <input type="Email"><br>
-					<label for="Description">Description of your organizing dilemma: </label><br>
-					<textarea name="description"></textarea><br>
-					<label for="Photos">Photos of the items and/or area you'd like to organize:</label> <br><input type="file"><br>
-					<input type="Submit">
+					<label>Name:</label><input type="text"><br>
+					<label>Email:</label> <input type="email"><br>
+					<label>Description of your organizing dilemma: </label><br>
+					<textarea></textarea><br>
+					<label>Photos of the items and/or area you'd like to organize:</label> <br><input type="file"><br>
+					<input type="submit">
 				</form>
 			</section>
 		

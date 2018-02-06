@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans');
 
 * {
-	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	padding: 0;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 	color: rgb(64, 64, 64);
 	font-size: 16px;
 	font-family:'Lora', serif;
-	line-height: 1.5em;
+	line-height: 1.5;
 	margin: 2em;
 }
 
@@ -26,19 +26,19 @@ nav {
 }
 
 nav a {
-	text-decoration: none;
 	color: #2f3a50;
-	margin: 1.8em;
 	display: inline-block;
+	padding: 1.8em;
+	text-decoration: none;
 }
 
 section {
-	padding: 4em;
 	background-color: #fff2e6;
+	padding: 4em;
 }
 
 form {
-	padding: 2em;
+	margin: 2em 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,18 +49,18 @@ p {
 	font-family:'Lora', serif;
 	font-size: 1em;
 	line-height: 1.5em;
-	margin: 2em 0;
+	margin: 1em 0 0;
 }
 
 a {
-	text-decoration: none;
 	color: #394660;
+	text-decoration: none;
 }
 
 ul {
-    list-style-position: inside;
-    text-align: center;
     display: inline-block;
+    list-style-position: inside;
+    text-align: center; 
     text-align:left;
 }
 
@@ -69,24 +69,24 @@ label {
 }
 
 input[type="email"], input[type="text"] {
-	width: 50%;
 	border: none;
 	border-radius: .5em;	
 	display: block;
-	padding: 1em;
 	margin: 1.5em 0 0 0;
+	padding: 1em;
+	width: 50%;
 }
 
 input[type="button"], input[type="submit"], input[type="reset"] {
     background-color: green;
     border: none;
     border-radius: .5em;
-    font-size: 1em;
     color: white;
+    cursor: pointer;
+    font-size: 1em;
+  	margin: 1em 0 1em 0;
     padding: .6em;
     text-decoration: none;
-    margin: 1em 0 1em 0;
-    cursor: pointer;
 }
 
 #subscribe input {
@@ -98,8 +98,8 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 }
 
 #Topics {
-	width: 50%;
 	padding: 1em;
+	width: 50%;
 }
 
 input[type="submit"]:hover {
@@ -108,20 +108,20 @@ input[type="submit"]:hover {
 
 
 textarea {
-	width: 50%;
 	border: none;
-	display: block;
-	padding: 1em;
 	border-radius: .5em;
+	display: block;
 	height: 4em;
 	max-width: 50em;
+	padding: 1em;
+	width: 50%;
 }
 
 article {
-	width: 50%;
 	background-color: #ffffff;
 	padding: 2em;
 	margin: 1em;
+	width: 50%;
 }
 
 
@@ -142,13 +142,14 @@ footer {
 }
 
 .fa {
-	padding: 1em;
 	border-radius: .5em;
 	font-size: 3em;
-	width: 4em;
+	margin: 1em 1em;
+	padding: 1em;
 	text-align: center;
 	text-decoration: none;
-	margin: 1em 1em;
+	width: 4em;
+	
 }
 
 .fa-instagram {
@@ -167,35 +168,38 @@ footer {
 }
 
 .italic{ 
-  font-style: italic; 
+ 	font-style: italic; 
 }
 
 .articleimg {
-	padding: 1.5em;
 	float: left;
+	padding: 1.5em;
 }
 
 #wrapper {
-	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 }
 
 #header {
-	width: 20em;
 	text-align: center;
+	width: 20em;
 }
 
 #two_column {
     background-color: #fff2e6;
+    max-width: 1200px;
+    margin: auto;
     padding: 3%;
 }
 
 
 #left {
     border: 1% black solid;
-    padding: 3%;
     float: left;
+    max-width: 40em;
+    padding: 3%;
     width: 50%;
 }
 
@@ -205,8 +209,8 @@ footer {
 
 #subscribe {
 	background-color: #8A9ABA;
-	font-size: 1.25em;
 	color: #ffffff;
+	font-size: 1.25em;
 }
 
 #organizeit {
@@ -228,6 +232,7 @@ footer {
 
 	.hero {
 		background: none;
+		height: initial;
 	}
 
 	#header {
